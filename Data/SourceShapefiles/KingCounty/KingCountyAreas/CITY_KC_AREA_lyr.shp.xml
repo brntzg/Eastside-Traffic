@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>King County</origin>
+				<pubdate>20041102</pubdate>
+				<title>Cities and Unincorporated King County</title>
+				<edition>One</edition>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>King County, WA</pubplace>
+					<publish>King County</publish>
+				</pubinfo>
+				<othercit>None</othercit>
+				<onlink>http://www5.kingcounty.gov/gisdataportal/Default.aspx</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Polygons for Cities and Unincorporated King County. This is an extract from CITY_ANNEX_AREA</abstract>
+			<purpose>To document areas incorporated and unicorporated in King County.</purpose>
+			<supplinf>None</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20260101</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-122.555180</westbc>
+				<eastbc>-121.063186</eastbc>
+				<northbc>47.789160</northbc>
+				<southbc>47.073002</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>Not applicable</themekt>
+				<themekey>admin</themekey>
+				<themekey>none</themekey>
+			</theme>
+			<place>
+				<placekt>Not applicable</placekt>
+				<placekey>Washington state</placekey>
+				<placekey>King County</placekey>
+				<placekey>WA</placekey>
+				<placekey>Pacific NW</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>King County Dept. of Environmental Services</cntorg>
+					<cntper>Paul McCombs</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Team Lead</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>900 Oakesdale Ave SW</address>
+					<city>Renton</city>
+					<state>WA</state>
+					<postal>98055-1219</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>206-296-7258</cntvoice>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www5.kingcounty.gov/sdc/DataImages/city_kc.jpg</browsen>
+			<browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+			<browset>JPG</browset>
+		</browse>
+		<native>Esri ArcGIS 13.5.0.57366</native>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Added old park annexation to Enumclaw on White river.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Added Annexations from Late July 2012 through October 2012.
+
+Lots of old details added by Daisy Tamayo.</procdesc>
+				<procdate>20121030</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Paul McCombs</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Added Annexations from October 2012 through May 2013.
+
+Added Park Annexation to Enumclaw from 1996 which was brought to light only since last update.
+
+Historic details added by Daisy Tamayo including changes to KC boundary along the white river</procdesc>
+				<procdate>20130606</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updated Woodinville boundary at Woodinville-Duvall road to correct a long standing, recently discovered positional error.</procdesc>
+				<procdate>20130620</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updated with several annexations of varying vintages. Several ROW annexations now documented.
+</procdesc>
+				<procdate>20131017</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updated with several annexations, most notably Bothel Islands.</procdesc>
+				<procdate>20140228</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updated with 3 effective Renton annexations, 1 pending Issaquah annexation, and  a proposed annexation each for Seattle and Sammamish. Many thanks to Daisy Tamayo for her tireless efforts mapping legal descriptions.</procdesc>
+				<procdate>20150113</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>King County Dept. of Environmental Services</cntorg>
+							<cntper>Paul McCombs</cntper>
+						</cntorgp>
+						<cntpos>GIS Data Team Lead</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>900 Oakesdale Ave SW</address>
+							<city>Renton</city>
+							<state>WA</state>
+							<postal>98055-1219</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>206-296-7258</cntvoice>
+						<cntemail>firstname.lastname@kingcounty.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Added annexations since last update</procdesc>
+				<procdate>20150626</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>King County Dept. of Environmental Services</cntorg>
+							<cntper>Paul McCombs</cntper>
+						</cntorgp>
+						<cntpos>GIS Data Team Lead</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>900 Oakesdale Ave SW</address>
+							<city>Renton</city>
+							<state>WA</state>
+							<postal>98055-1219</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>206-296-7258</cntvoice>
+						<cntemail>firstname.lastname@kingcounty.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Recent Annexations, adjustments to match redrawn cadastral features</procdesc>
+				<procdate>20160414</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>King County Dept. of Environmental Services</cntorg>
+							<cntper>Paul McCombs</cntper>
+						</cntorgp>
+						<cntpos>GIS Data Team Lead</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>900 Oakesdale Ave SW</address>
+							<city>Renton</city>
+							<state>WA</state>
+							<postal>98055-1219</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>206-296-7258</cntvoice>
+						<cntemail>firstname.lastname@kingcounty.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Recent Annexations, adjustments to match redrawn cadastral features</procdesc>
+				<procdate>20160622</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Recent Annexations, adjustments to match redrawn cadastral features</procdesc>
+				<procdate>20170707</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>King County Dept. of Environmental Services</cntorg>
+							<cntper>Paul McCombs</cntper>
+						</cntorgp>
+						<cntpos>GIS Data Team Lead</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>900 Oakesdale Ave SW</address>
+							<city>Renton</city>
+							<state>WA</state>
+							<postal>98055-1219</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>206-296-7258</cntvoice>
+						<cntemail>firstname.lastname@kingcounty.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Recent Annexations, adjustments to match redrawn cadastral features, and correction to remove a portion of 205th Street NW incorrectly included in the original Shoreline incorporation area.</procdesc>
+				<procdate>20180323</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Recent Annexations to Renton and Maple Valley and pending annexation to Milton, adjustments to match redrawn cadastral features.</procdesc>
+				<procdate>20190529</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Hill Creek Annexation area to the City of Milton.</procdesc>
+				<procdate>20190729</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Highland Meadows Annexation area to the City of Renton.</procdesc>
+				<procdate>20191110</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Bill Annexation area to the City of Renton and addition of ROW to the City of Normandy Park.</procdesc>
+				<procdate>20191222</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the South 320th Street Annexation area to the City of Federal Way.</procdesc>
+				<procdate>20200729</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Warner Ave/SE 456th Street Annexation area to the City of Enumclaw and modification of the NE corner of the South 320th Street Annexation to the City of Federal Way.</procdesc>
+				<procdate>20200903</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Mt Rainier Christian Center Annexation area to the City of Enumclaw.</procdesc>
+				<procdate>20210301</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the Graves Annexation area to the City of Renton.</procdesc>
+				<procdate>20210306</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of City of Woodinville Roundabout annexation, City of North Bend 428th Ave SE and SE 136th &amp; 436th Ave SE boundary revisions.</procdesc>
+				<procdate>20210827</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Correction to southern boundary of the 240th and 180th St Park annexation to the City of Covington as per OrdNo 908.</procdesc>
+				<procdate>20211019</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of Falkenberg Annexation to the City of Carnation as per BRB 2397 and Carnation Ord No 926.</procdesc>
+				<procdate>20211123</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of Grace Point Annexation to the City of Enumclaw as per BRB 2413 and City of Enumclaw Ord No 2479.</procdesc>
+				<procdate>20230313</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>City of Redmond annexation of city-owned parcel 272605-9145 via Ordinance No. 3128, pursuant to RCW 35A.14.300, Annexation For Municipal Purposes.</procdesc>
+				<procdate>20231101</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Annexation of the property known as The Bridges, currently located in the City of Kent, into the City of Auburn as per Auburn Ordinance No. 6928, pusuant to RCW 35.10.217(2).</procdesc>
+				<procdate>20240101</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Previous 2022 Annexation of SE 448th St right-of-way (from the wester right-of-way of 244th Ave SE approximately 1148' westerly) to the City of Enumclaw as per file LUA 2022-0041 – Gambrel Preliminary Plat.</procdesc>
+				<procdate>20240327</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of the NE 97th Street Annexation to the City of Redmond, as per BRB File 2418 and City of Redmond Ordinance 3165.</procdesc>
+				<procdate>20240701</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of a portion of the SE 440th Street right of way to the City of Enumclaw as per KC Ord No 19973 and Addition of a portion of the 384th Ave SE right of way to the City of Snoqualmie as per KC Ord No19974.  </procdesc>
+				<procdate>20250923</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Frank Whitman</cntper>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Addition of five contiguous, city-owned parcels (212970-0240, 212970-0245, 212970-0260, 212970-0270, and 212970-0271) adjacent to Big Rock Park for municipal purposes, as per City of Duvall Ord. No. 1341, effective January 1, 2026.</procdesc>
+				<procdate>20260101</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>98</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>plibrary.ADMIN.CITY_KC_area</enttypl>
+				<enttypds>ESRI</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature Geometry</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>JURIS</attrlabl>
+				<attrdomv>
+					<edom>
+						<edomv>(no value)</edomv>
+					</edom>
+					<edom>
+						<edomv>AL</edomv>
+					</edom>
+					<edom>
+						<edomv>AU</edomv>
+					</edom>
+					<edom>
+						<edomv>BA</edomv>
+					</edom>
+					<edom>
+						<edomv>BD</edomv>
+					</edom>
+					<edom>
+						<edomv>BE</edomv>
+					</edom>
+					<edom>
+						<edomv>BO</edomv>
+					</edom>
+					<edom>
+						<edomv>BU</edomv>
+					</edom>
+					<edom>
+						<edomv>CA</edomv>
+					</edom>
+					<edom>
+						<edomv>CH</edomv>
+					</edom>
+					<edom>
+						<edomv>CO</edomv>
+					</edom>
+					<edom>
+						<edomv>DM</edomv>
+					</edom>
+					<edom>
+						<edomv>DU</edomv>
+					</edom>
+					<edom>
+						<edomv>EN</edomv>
+					</edom>
+					<edom>
+						<edomv>FW</edomv>
+					</edom>
+					<edom>
+						<edomv>HP</edomv>
+					</edom>
+					<edom>
+						<edomv>IS</edomv>
+					</edom>
+					<edom>
+						<edomv>KC</edomv>
+					</edom>
+					<edom>
+						<edomv>KE</edomv>
+					</edom>
+					<edom>
+						<edomv>KI</edomv>
+					</edom>
+					<edom>
+						<edomv>KM</edomv>
+					</edom>
+					<edom>
+						<edomv>LF</edomv>
+					</edom>
+					<edom>
+						<edomv>ME</edomv>
+					</edom>
+					<edom>
+						<edomv>MI</edomv>
+					</edom>
+					<edom>
+						<edomv>MT</edomv>
+					</edom>
+					<edom>
+						<edomv>MV</edomv>
+					</edom>
+					<edom>
+						<edomv>NB</edomv>
+					</edom>
+					<edom>
+						<edomv>NE</edomv>
+					</edom>
+					<edom>
+						<edomv>NP</edomv>
+					</edom>
+					<edom>
+						<edomv>PA</edomv>
+					</edom>
+					<edom>
+						<edomv>RM</edomv>
+					</edom>
+					<edom>
+						<edomv>RN</edomv>
+					</edom>
+					<edom>
+						<edomv>SE</edomv>
+					</edom>
+					<edom>
+						<edomv>SH</edomv>
+					</edom>
+					<edom>
+						<edomv>SK</edomv>
+					</edom>
+					<edom>
+						<edomv>SM</edomv>
+					</edom>
+					<edom>
+						<edomv>SN</edomv>
+					</edom>
+					<edom>
+						<edomv>ST</edomv>
+					</edom>
+					<edom>
+						<edomv>TU</edomv>
+					</edom>
+					<edom>
+						<edomv>WO</edomv>
+					</edom>
+					<edom>
+						<edomv>YP</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CITYNAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape.STArea()</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape.STLength()</attrlabl>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>KCGIS Center</cntorg>
+					<cntper>Cheryl Wilder</cntper>
+				</cntorgp>
+				<cntpos>Data Sales Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>201 S Jackson St, Suite 700</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>980914</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>206-296-7258</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc>/plibrary2/admin/shapes/polygon/city_kc.shp</resdesc>
+		<distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ESRI Shapefile</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20260113</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>King County Dept. of Environmental Services</cntorg>
+					<cntper>Paul McCombs</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Team Lead</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>900 Oakesdale Ave SW</address>
+					<city>Renton</city>
+					<state>WA</state>
+					<postal>98055-1219</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>206-296-7258</cntvoice>
+				<cntemail>firstname.lastname@kingcounty.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><CreaDate>20260701</CreaDate><CreaTime>15261600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri></metadata>
