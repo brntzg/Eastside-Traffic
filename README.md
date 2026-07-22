@@ -1,2 +1,2 @@
-# EastsideTraffic
-An exploratory spatial data mapping of traffic flows (AADT) between Lakes Washington and Sammamish.
+# Eastside Traffic Count
+An exploratory spatial data mapping of annual average daily traffic (AADT) counts around Redmond, Washington.
